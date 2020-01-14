@@ -1,0 +1,48 @@
+/* =================== */
+/* CUSTOM FONT CLASSES */
+
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url('../Fonts/Raleway/R-Regular.otf'),
+}
+
+.RalewayRegular { font-family: 'Raleway Regular', Times, serif; }
+
+
+/* =================== */
+/* CUSTOM FONT CLASSES */
+
+body {
+    margin: 20px 0;
+    font-family: monospace;
+}
+  
+@media (min-width: 900px) {
+    .large-menu a {
+        color: DarkOrange;
+        font-size: 30px;
+    }
+}
+  
+.small-menu a {
+    color: Skyblue;
+    text-decoration: line-through;
+}
+
+.topPadding {
+    padding-top: 30px;
+}
+
+.hyperlinkStyling {
+    text-decoration: none;
+    color: black;
+}
+
+.hyperlinkStyling:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.projectTitle {
+    font-size: 20px;
+}
