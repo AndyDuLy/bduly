@@ -3,10 +3,22 @@
 
 @font-face {
     font-family: 'Raleway Regular';
-    src: url('../Fonts/Raleway/R-Regular.otf'),
+    src: url('../Fonts/Raleway/R-Medium.ttf'),
+}
+
+@font-face {
+    font-family: 'Raleway Thin';
+    src: url('../Fonts/Raleway/R-Thin.ttf'),
+}
+
+@font-face {
+    font-family: 'Raleway Thin Ital';
+    src: url('../Fonts/Raleway/R-ThinItalic.ttf'),
 }
 
 .RalewayRegular { font-family: 'Raleway Regular', Times, serif; }
+.RalewayThin { font-family: 'Raleway Thin', Times, serif; }
+.RalewayThinItal { font-family: 'Raleway Thin Ital', Times, serif; }
 
 
 /* =================== */
@@ -23,26 +35,48 @@ body {
         font-size: 30px;
     }
 }
-  
-.small-menu a {
-    color: Skyblue;
-    text-decoration: line-through;
-}
 
-.topPadding {
-    padding-top: 30px;
+.textPadding {
+    padding: 25px;
 }
 
 .hyperlinkStyling {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .hyperlinkStyling:hover {
     text-decoration: underline;
-    color: black;
+    color: #FFD0D1;
 }
 
-.projectTitle {
-    font-size: 20px;
+.navbarTitle {
+    font-size: 17px;
+}
+
+.name { 
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+}
+
+.bioColor { color: #FFD0D1; }
+
+.jobTitle { 
+    font-weight: bold;
+    font-size: 15px;
+    color: #FF9EA0; 
+}
+
+.slightPadding {
+    padding-bottom: 13px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 1%;
+}
+
+.removeScrollbar {
+    overflow-x: hidden;
 }
