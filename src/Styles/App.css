@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Raleway Regular';
-    src: url('../Fonts/Raleway/R-Medium.ttf'),
+    src: url('../Fonts/Raleway/R-Regular.otf'),
 }
 
 @font-face {
@@ -23,6 +23,17 @@
 
 /* =================== */
 /* CUSTOM FONT CLASSES */
+
+html {
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent; 
+}
 
 body {
     margin: 20px 0;

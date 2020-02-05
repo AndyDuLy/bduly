@@ -107,10 +107,10 @@ export default function SideNavbar(props) {
       </p>
 
       <div>
-        <Grid className="topPadding" container justify="center"> <Grid className="slightPadding" item> <a className="navbarTitle hyperlinkStyling" target="_blank" href="google.ca"> Articles </a> </Grid> </Grid>
-        <Grid container justify="center"> <Grid className="slightPadding" item> <a className="navbarTitle hyperlinkStyling" target="_blank" href="google.ca"> Media </a> </Grid> </Grid>
-        <Grid container justify="center"> <Grid className="slightPadding" item> <a className="navbarTitle hyperlinkStyling" target="_blank" href="google.ca"> On-Air Reports </a> </Grid> </Grid>
-        <Grid container justify="center"> <Grid className="slightPadding" item> <a className="navbarTitle hyperlinkStyling" target="_blank" href="google.ca"> Contact </a> </Grid> </Grid>
+        <Grid className="topPadding" container justify="center"> <Grid className="slightPadding" item> <a className="navbarTitle hyperlinkStyling" href="#Articles"> Articles </a> </Grid> </Grid>
+        <Grid container justify="center"> <Grid className="slightPadding" item> <a className="navbarTitle hyperlinkStyling" href="#Media"> Media </a> </Grid> </Grid>
+        <Grid container justify="center"> <Grid className="slightPadding" item> <a className="navbarTitle hyperlinkStyling" href="#OAR"> On-Air Reports </a> </Grid> </Grid>
+        <Grid container justify="center"> <Grid className="slightPadding" item> <a className="navbarTitle hyperlinkStyling" href="#Contact"> Contact </a> </Grid> </Grid>
       </div>
     </div>
   );
