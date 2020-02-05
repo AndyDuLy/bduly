@@ -6,6 +6,7 @@ import SideNavbar from '../Components/SideNavbar';
 import Article_CrokiCurl from '../Images/Articles/crokicurl.jpg';
 import Article_NuitBlanche from '../Images/Articles/nuitblanche.png';
 import Article_ShoeBox from '../Images/Articles/shoeboxproj.jpg';
+import Article_BakeSale from '../Images/Articles/bakeSale.png';
 
 
 export default function Home() {
@@ -59,6 +60,20 @@ export default function Home() {
               <span className="excerptColor"> Is there anything more Canadian than
                 staring winter in the face, going out, and
                 just embracing it? There is now. </span>
+            </p>
+          </Grid>
+
+          <Grid item xs={10} md={3}>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.680news.com/2020/01/15/i-donated-from-my-piggy-bank-toronto-grade-two-student-hosts-bake-sale-for-australia/">
+              <img src={Article_BakeSale} width="320" height="250" alt=""/>
+            </a>
+
+            <p className="RalewayRegular">
+              <span className="dateColor"> 680 NEWS | January 15th, 2020 </span> <br/>
+              <span className="headliner"> "I donated from my piggy bank": Toronto grade two student hosts bake sale for Australia </span> <br/>
+              <span className="excerptColor"> Staff and students at Duke of Connaught Public School near Queen Street and Coxwell 
+              teamed up to organize a school bake sale, to raise funds for Australia as devastating wildfires continue to rip 
+              through the country. </span>
             </p>
           </Grid>
 
@@ -215,6 +230,26 @@ export default function Home() {
               <span className="excerptColor"> Is there anything more Canadian than
                 staring winter in the face, going out, and
                 just embracing it? There is now. </span>
+            </p>
+          </Grid>
+        </Grid>
+
+        <Grid container className="topPadding" direction="row" justify="flex-start" spacing={8}>
+          <Grid item>
+            <SideNavbar/>
+          </Grid>
+
+          <Grid item xs={10} md={3}>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.680news.com/2020/01/15/i-donated-from-my-piggy-bank-toronto-grade-two-student-hosts-bake-sale-for-australia/">
+              <img src={Article_BakeSale} width="420" height="250" alt=""/>
+            </a>
+
+            <p className="RalewayRegular">
+              <span className="dateColor"> 680 NEWS | January 15th, 2020 </span> <br/>
+              <span className="headliner"> "I donated from my piggy bank": Toronto grade two student hosts bake sale for Australia </span> <br/>
+              <span className="excerptColor"> Staff and students at Duke of Connaught Public School near Queen Street and Coxwell 
+              teamed up to organize a school bake sale, to raise funds for Australia as devastating wildfires continue to rip 
+              through the country. </span>
             </p>
           </Grid>
         </Grid>

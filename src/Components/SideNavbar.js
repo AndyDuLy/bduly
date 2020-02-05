@@ -100,9 +100,8 @@ export default function SideNavbar(props) {
         <span className="RalewayThin name"> Brittany Du Ly </span> <br/>
         <span className="RalewayThinItal jobTitle"> Digital Reporter, Journalist </span> <br/><br/>
         From helping her dad film on 
-        his 1997 JVC camcorder, to shooting her own projects
-        now, Brittany has loved capturing special moments
-        since a young age. She is easily inspired when mixing
+        his 1997 JVC camcorder, to shooting short and long-form
+        content now, she is easily inspired when mixing her
         her passion for media with the art of telling a good story. 
       </p>
 
