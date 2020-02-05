@@ -80,3 +80,19 @@ body {
 .removeScrollbar {
     overflow-x: hidden;
 }
+
+.topPadding {
+    padding-top: 40px;
+}
+
+.dateColor { 
+    color: #858585; 
+    font-size: 16px;
+}
+
+.headliner { font-size: 20px; }
+
+.excerptColor { 
+    color: #616161; 
+    font-size: 17px;
+}

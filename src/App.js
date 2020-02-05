@@ -1,13 +1,15 @@
 import React from 'react';
 import './Styles/App.css';
-
-import SideNavbar from './Components/SideNavbar';
+import Grid from '@material-ui/core/Grid';
+import Home from './Pages/Home';
 
 
 export default function App() {
   return (
-    <>
-      <SideNavbar/>
-    </>
+    <Grid container direction="row">     
+      <Grid item>
+        <Home/>
+      </Grid>
+    </Grid>
   );
 }
