@@ -18,7 +18,7 @@ export default function Home() {
         <Grid container className="topPadding" direction="row" justify="center" spacing={8} id="Articles">
           <Grid item xs={10} md={3}>
             <a target="_blank" rel="noopener noreferrer" href="https://www.680news.com/2019/10/04/guide-all-things-nuit-blanche-2019/"> 
-              <img src={Article_CrokiCurl} width="320" height="250" alt=""/> 
+              <img src={Article_NuitBlanche} width="320" height="250" alt=""/> 
             </a>
 
             <p className="RalewayRegular">
@@ -34,7 +34,7 @@ export default function Home() {
 
           <Grid item xs={10} md={3}>
             <a target="_blank" rel="noopener noreferrer" href="https://www.680news.com/2019/12/06/the-shoebox-project-community-hero-holiday-edition/">
-              <img src={Article_NuitBlanche} width="320" height="250" alt=""/>
+              <img src={Article_ShoeBox} width="320" height="250" alt=""/>
             </a>
 
             <p className="RalewayRegular">
@@ -51,7 +51,7 @@ export default function Home() {
 
           <Grid item xs={10} md={3}>
             <a target="_blank" rel="noopener noreferrer" href="https://www.680news.com/2019/11/24/embracing-winter-the-gtas-first-ever-crokicurl-rink/">
-              <img src={Article_ShoeBox} width="320" height="250" alt=""/>
+              <img src={Article_CrokiCurl} width="320" height="250" alt=""/>
             </a>
 
             <p className="RalewayRegular">
@@ -188,7 +188,7 @@ export default function Home() {
 
           <Grid item xs={10} md={3}>
             <a target="_blank" rel="noopener noreferrer" href="https://www.680news.com/2019/10/04/guide-all-things-nuit-blanche-2019/"> 
-              <img src={Article_CrokiCurl} width="420" height="250" alt=""/> 
+              <img src={Article_NuitBlanche} width="420" height="250" alt=""/> 
             </a>
 
             <p className="RalewayRegular">
@@ -204,7 +204,7 @@ export default function Home() {
 
           <Grid item xs={10} md={3}>
             <a target="_blank" rel="noopener noreferrer" href="https://www.680news.com/2019/12/06/the-shoebox-project-community-hero-holiday-edition/">
-              <img src={Article_NuitBlanche} width="420" height="250" alt=""/>
+              <img src={Article_ShoeBox} width="420" height="250" alt=""/>
             </a>
 
             <p className="RalewayRegular">
@@ -221,7 +221,7 @@ export default function Home() {
 
           <Grid item xs={10} md={3}>
             <a target="_blank" rel="noopener noreferrer" href="https://www.680news.com/2019/11/24/embracing-winter-the-gtas-first-ever-crokicurl-rink/">
-              <img src={Article_ShoeBox} width="420" height="250" alt=""/>
+              <img src={Article_CrokiCurl} width="420" height="250" alt=""/>
             </a>
 
             <p className="RalewayRegular">
